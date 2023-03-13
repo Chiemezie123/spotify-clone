@@ -19,7 +19,7 @@ return(
        </div>
 
        <div className="bee-music-div">
-       <div id="bee-music-logo"><TbOlympics /></div>
+       <div id="bee-music-logo"><AiOutlineMenuUnfold /></div>
         <h2><span id="logo-text">Fuzzy</span>Music</h2>
        </div>
 
@@ -75,7 +75,7 @@ return(
        <hr></hr>
             <div className="fourth-div">
                 <div className="check">
-                    <img src={footer.picture}/>
+                    <img src={footer.picture} alt="img"/>
                    <span> {footer.title}</span>
                 </div>
                 <div className="fish">
