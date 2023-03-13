@@ -2,7 +2,6 @@ import React from "react";
 import '../App.css';
 import { sideBarData } from "./sidebarData";
 import {secondSideBarData} from "./sidebarData";
-import {TbOlympics} from "react-icons/tb";
 import {thirdSideBarData} from "./sidebarData";
 import {AiOutlineMenuUnfold} from "react-icons/ai";
 import {footer} from "./sidebarData"

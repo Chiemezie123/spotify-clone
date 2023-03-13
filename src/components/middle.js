@@ -2,7 +2,6 @@ import React from "react";
 import{IoIosArrowRoundForward} from "react-icons/io";
 import {IoIosArrowRoundBack} from "react-icons/io";
 import {AiOutlineSearch} from "react-icons/ai";
-import { useState } from "react";
 import picture2 from "./images/burst.png";
 import songMenu from "./middleData";
 import {AiOutlineHeart} from "react-icons/ai";
@@ -20,7 +19,7 @@ import './middle.css';
 
 
 function Middle (){
-    const [tags, setTags] = useState([]);
+   
     return(
         <>
         <div className="width-checker">
@@ -35,7 +34,7 @@ function Middle (){
             </div>
             <div className="father-2">
         <AiOutlineSearch />
-        <input type ="text"  tags={tags} placeholder="search for arstist,songs and ..."/>
+        <input type ="text"  tags={[]} placeholder="search for arstist,songs and ..."/>
             </div>
         </div>
         <div className="Grand-mother">
@@ -46,7 +45,7 @@ function Middle (){
                 </p>
                 </div>
                 <div id="mother-1-2">
-                   <img src={picture2}/>
+                   <img src={picture2} alt="img"/>
                     </div>
             </div>
             <div className="mother-2">

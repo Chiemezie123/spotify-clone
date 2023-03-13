@@ -17,33 +17,33 @@ function right (){
                 </h2> 
                 <div className="grid-template">
                     <div className="a">
-                        <img src={picture5} />
+                        <img src={picture5}alt="img"/>
                         <p>chilled hits</p>
                     </div>
                     <div className="b">
-                    <img src={picture6} />
+                    <img src={picture6} alt="img" />
                         <p>hop</p>
                     </div>
                     <div className="c">
-                    <img src={picture3} />
+                    <img src={picture3} alt="img" />
                         <p>
                             accoustic
                         </p>
                     </div>
                     <div className="d">
-                    <img src={picture5} />
+                    <img src={picture5}alt="img"/>
                         <p>
                             indie pop
                         </p>
                     </div >
                     <div className="e">
-                    <img src={picture4} />
+                    <img src={picture4} alt="img"/>
                         <p>
                             paino blues
                         </p>
                     </div>
                     <div className="f">
-                    <img src={picture7} />
+                    <img src={picture7} alt="img"/>
                         <p>
                             jazz
                         </p>
@@ -59,7 +59,7 @@ function right (){
                                <>
                                 <div>
                                 <div className="right-1"> 
-                                    <img src={val.img}/>
+                                    <img src={val.img} alt="img"/>
                                     </div>
                                     <div className="right-1-jnr">
                                         {val.artist}
