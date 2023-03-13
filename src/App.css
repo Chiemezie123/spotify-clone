@@ -1,0 +1,145 @@
+.App {
+  width: 100vw;
+  height: 100%;
+  background-color:RGB(239 240 241);
+  display: flex;
+}
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.sidebar{
+  background-color:#fff;
+  width: 300px;
+  height:100%;
+  padding:20px;
+}
+.first-logo{
+  /* border:1px solid firebrick; */
+  display: flex;
+  justify-content: flex-end;
+  width:auto;
+}
+.first-logo div{
+  width:auto;
+  /* border: 1px solid green; */
+  font-size: 20px;
+}
+.bee-music-div{
+  /* border: 1px solid gold; */
+  margin: 20px 0px;
+  display: flex;
+
+}
+.bee-music-logo{
+  color: yellow;
+}
+
+#logo-text{
+  color:rgb(244, 194, 27)
+}
+.bee-music-div h2{
+  text-transform:capitalize ;
+  font-size: 18px;
+
+}
+.first-div{
+  /* border: 1px solid purple; */
+  padding: 0px ;
+}
+.first-div li{
+  border-radius: 10px;
+  text-decoration: none;
+  list-style: none;
+  /* border: 1px solid blue; */
+  display: flex;
+  padding: 20px 5px;
+  color: gray;
+  text-transform: capitalize;
+}
+.first-div li:hover{
+background-color:black;
+color: #fff;
+cursor: pointer;
+}
+#icon{
+  flex:20%;
+  display: grid;
+  place-content:center;
+}
+#title{
+  flex: 80%;
+}
+.second-div{
+  /* padding: 10px 20px; */
+  /* border: 1px solid red; */
+  color: grey;
+}
+.second-div h4{
+  margin: 20px 0px 20px 20px ;
+  text-transform: capitalize;
+ 
+}
+.john{
+  display: flex;
+  /* border: 1px solid forestgreen; */
+  padding: 20px 5px;
+  border-radius: 10px;
+
+}
+.john:hover{
+  background-color:black;
+color: #fff;
+cursor:pointer;
+}
+#icon-1{
+  flex:20%;
+  display: grid;
+  place-content:center;
+}
+#title-1{
+  flex: 80%;
+  justify-content: flex-start;
+}
+.third-div{
+  /* border: 1px solid indigo; */
+  color: grey;
+}
+
+.third-div h4{
+  margin: 20px 0px 20px 20px ;
+  text-transform: capitalize;
+}
+hr{
+  width: 100%;
+}
+.fourth-div{
+  /* border: 1px solid rosybrown; */
+  margin-top: 50px;
+  margin-bottom: 20px;
+  padding: 50px 0px 50px 0px;
+  display: flex;
+  color: gray;
+  justify-content: space-between;
+
+}
+.fourth-div img{
+  border-radius: 50%;
+  width:40px;
+}
+.fourth-div span{
+  text-align: center;
+}
+.check{
+  /* border: 1px solid salmon; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.fish{
+  /* border: 1px solid fuchsia; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

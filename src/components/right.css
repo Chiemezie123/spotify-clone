@@ -1,0 +1,77 @@
+.right{
+    padding: 10px;
+    color: gray;
+}
+
+.grid-template{
+    margin-top: 30px;
+    display: grid;
+    column-gap: 10px;
+    row-gap: 10px;
+    text-transform: capitalize;
+    grid-template-areas: "one two"
+                         "three four"
+                         "five six";
+}
+.grid-template img{
+    width: 20px;
+}
+.grid-template p{
+    font-size:15px;
+
+    color:gray
+}
+.a{
+    grid-area: one;
+    background-color: #fff;
+    display: flex;
+    padding: 10px 20px;
+    border-radius: 30px;
+    /* width: 100px; */
+}
+.b{
+    grid-area: two;
+    background-color: #fff;
+    display: flex;
+    padding: 0px 0px;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.c{
+    border-radius: 30px;
+    grid-area: three;
+    background-color: #fff;
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: center;
+}
+.d{
+    border-radius: 30px;
+    grid-area: four;
+    background-color: #fff;
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: center;
+}
+.e{
+    border-radius: 30px;
+    grid-area: five;
+    background-color: #fff;
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: center;
+}
+.f{
+    border-radius: 30px;
+    grid-area: six;
+    background-color: #fff;
+    display: flex;
+    padding: 10px 10px;
+    align-items: center;
+    justify-content: center;
+}
+
